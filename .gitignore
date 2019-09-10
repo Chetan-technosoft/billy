@@ -1,0 +1,69 @@
+# Intellij IDEA (see https://intellij-support.jetbrains.com/entries/23393067)
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/tasks.xml
+/.idea/datasources.xml
+/.idea/dataSources.ids
+/.idea/vcs.xml
+
+
+.idea/libraries
+.idea/caches
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/tasks.xml
+.idea/datasources.xml
+.idea/dataSources.ids
+.idea/vcs.xml
+
+
+#built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.propertie
+/local.properties
+
+# Windows thumbnail db
+Thumbs.db
+
+# OSX files
+.DS_Store
+
+# Android Studio
+*.iml
+.idea
+#.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
+.gradle
+build/
+.navigation
+captures/
+output.json
+/build
+*.iws
+/captures
+
+#NDK
+obj/
+.externalNativeBuild
+
+#gradle/
+gradlew
+gradlew.bat

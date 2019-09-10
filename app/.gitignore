@@ -1,0 +1,7 @@
+/build
+*.apk
+*.aab
+/uat
+/production
+/dev
+/uathttp
