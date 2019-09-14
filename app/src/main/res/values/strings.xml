@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Meow</string>
+    <string name="text_welcome">Welcome!</string>
+    <string name="welcome_message">My name is Meow, what\'s yours?</string>
+    <string name="hint_name">Eg. Phoebe Buffay</string>
+    <string name="text_button_continue">Continue</string>
 </resources>
