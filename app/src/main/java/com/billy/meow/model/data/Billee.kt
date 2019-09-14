@@ -1,4 +1,4 @@
-package com.billy.meow.model.pojo
+package com.billy.meow.model.data
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
@@ -12,19 +12,20 @@ import androidx.room.PrimaryKey
 data class Billee(
 
     @PrimaryKey(autoGenerate = true)
-    var id: Int = 0,
+    var id: Long = 0,
 
     @ColumnInfo(name = "name")
     var name: String,
 
     @ColumnInfo(name = "phone")
-    var phone: String,
+    var phone: String? = null,
 
     @ColumnInfo(name = "created_on")
     var createdOn: Long,
 
     @ColumnInfo(name = "self")
-    var self: Boolean
-
-
-)
+    var self: Boolean? = false
+) {
+    constructor(name: String) :
+            this(name = name, createdOn = System.currentTimeMillis())
+}

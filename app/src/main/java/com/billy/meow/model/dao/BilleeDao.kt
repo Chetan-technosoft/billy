@@ -2,7 +2,7 @@ package com.billy.meow.model.dao
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.billy.meow.model.pojo.Billee
+import com.billy.meow.model.data.Billee
 
 /**
  * Created by Chetan on 11-09-2019.
@@ -11,7 +11,7 @@ import com.billy.meow.model.pojo.Billee
 interface BilleeDao {
 
     @Insert
-    fun insert(billee: Billee)
+    fun insert(billee: Billee): Long
 
     @Delete
     fun delete(billee: Billee)

@@ -4,7 +4,7 @@ import androidx.room.Room
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
 import com.billy.meow.model.dao.BilleeDao
-import com.billy.meow.model.pojo.Billee
+import com.billy.meow.model.data.Billee
 import org.junit.After
 import org.junit.Assert
 import org.junit.Before

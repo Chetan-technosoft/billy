@@ -21,6 +21,18 @@ class CommonBindingAdapter {
     }
 
     @BindingAdapter("android:text")
+    fun setTextInLong(textView: TextView, value: Long) {
+        if (textView.text != null && textView.text.toString().trim().isNotEmpty()) {
+
+            if (textView.text.toString().trim().toLong() != value) {
+                textView.text = value.toString()
+            }
+        } else {
+            textView.text = value.toString()
+        }
+    }
+
+    @BindingAdapter("android:text")
     fun setTextInDouble(textView: TextView, value: Double) {
         if (textView.text != null && textView.text.toString().trim().isNotEmpty()) {
 
