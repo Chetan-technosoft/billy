@@ -4,7 +4,10 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
+import com.billy.meow.R
+import com.billy.meow.databinding.FragmentOnboardingBinding
 
 /**
  * Created by Chetan on 2019-09-10.
@@ -21,8 +24,9 @@ class FragmentOnboarding : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
+        val binding: FragmentOnboardingBinding =
+            DataBindingUtil.inflate(inflater, R.layout.fragment_onboarding, container, false)
 
-
-        return super.onCreateView(inflater, container, savedInstanceState)
+        return binding.root
     }
 }

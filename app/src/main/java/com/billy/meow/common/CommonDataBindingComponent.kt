@@ -5,7 +5,7 @@ import androidx.databinding.DataBindingComponent
 /**
  * Created by Chetan on 10-09-2019.
  */
-class CommonDataBindingComponent : DataBindingComponent {
+object CommonDataBindingComponent : DataBindingComponent {
     private val bindingAdapter = CommonBindingAdapter()
 
     override fun getCommonBindingAdapter(): CommonBindingAdapter {

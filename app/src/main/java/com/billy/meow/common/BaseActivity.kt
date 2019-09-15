@@ -8,10 +8,10 @@ import androidx.appcompat.app.AppCompatActivity
  */
 open class BaseActivity : AppCompatActivity() {
 
-    protected lateinit var component: CommonDataBindingComponent
+    //protected lateinit var component: CommonDataBindingComponent
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        component = CommonDataBindingComponent()
+        //component = CommonDataBindingComponent()
     }
 
 
