@@ -8,12 +8,12 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import com.billy.meow.R
 import com.billy.meow.common.CommonDataBindingComponent
-import com.billy.meow.databinding.FragmentOnboardingBinding
+import com.billy.meow.databinding.FragmentTablesBinding
 
 /**
- * Created by Chetan on 2019-09-10.
+ * Created by Chetan on 2019-09-16.
  */
-class FragmentOnboarding : Fragment() {
+class FragmentTables : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -21,10 +21,10 @@ class FragmentOnboarding : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        val binding: FragmentOnboardingBinding =
+        val binding: FragmentTablesBinding =
             DataBindingUtil.inflate(
                 inflater,
-                R.layout.fragment_onboarding,
+                R.layout.fragment_tables,
                 container,
                 false,
                 CommonDataBindingComponent

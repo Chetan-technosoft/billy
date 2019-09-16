@@ -1,12 +1,12 @@
-package com.billy.meow.model.data
+package com.billy.meow.database.data
 
 import androidx.room.Room
 import androidx.test.platform.app.InstrumentationRegistry
-import com.billy.meow.model.MeowDB
-import com.billy.meow.model.dao.BilleeDao
-import com.billy.meow.model.dao.DishDao
-import com.billy.meow.model.dao.FoodBilleeMapDao
-import com.billy.meow.model.dao.TableDao
+import com.billy.meow.database.MeowDB
+import com.billy.meow.database.dao.BilleeDao
+import com.billy.meow.database.dao.DishDao
+import com.billy.meow.database.dao.FoodBilleeMapDao
+import com.billy.meow.database.dao.TableDao
 import org.junit.After
 import org.junit.Assert.assertNotNull
 import org.junit.Before

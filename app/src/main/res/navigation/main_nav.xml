@@ -1,11 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_nav"
     app:startDestination="@id/fragmentOnboarding">
 
     <fragment
         android:id="@+id/fragmentOnboarding"
         android:name="com.billy.meow.view.fragments.FragmentOnboarding"
-        android:label="FragmentOnboarding" />
+        android:label="FragmentOnboarding"
+        tools:layout="@layout/fragment_onboarding">
+
+        <action
+            android:id="@+id/action_fragmentOnboarding_to_fragmentTables"
+            app:destination="@id/fragmentTables" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentAddBillees"
+        android:name="com.billy.meow.view.fragments.FragmentAddBillees"
+        android:label="FragmentAddBillees"
+        tools:layout="@layout/fragment_add_billee">
+
+        <action
+            android:id="@+id/action_fragmentAddBillees_to_fragmentTables"
+            app:destination="@id/fragmentTables" />
+
+        <action
+            android:id="@+id/action_fragmentAddBillees_to_fragmentTableDetails"
+            app:destination="@id/fragmentTableDetails" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentTableDetails"
+
+        android:name="com.billy.meow.view.fragments.FragmentTableDetails"
+        android:label="FragmentTableDetails"
+        tools:layout="@layout/fragment_table_details">
+
+        <action
+            android:id="@+id/action_fragmentTableDetails_to_fragmentAddTable"
+            app:destination="@id/fragmentAddTable" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentAddTable"
+        android:name="com.billy.meow.view.fragments.FragmentAddTable"
+        android:label="FragmentAddTable"
+        tools:layout="@layout/fragment_add_table">
+
+        <action
+            android:id="@+id/action_fragmentAddTable_to_fragmentAddBillees"
+            app:destination="@id/fragmentAddBillees" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentTables"
+        android:name="com.billy.meow.view.fragments.FragmentTables"
+        android:label="FragmentTables"
+        tools:layout="@layout/fragment_tables">
+
+        <action
+            android:id="@+id/action_fragmentTables_to_fragmentAddTable"
+            app:destination="@id/fragmentAddTable" />
+
+        <action
+            android:id="@+id/action_fragmentTables_to_fragmentTableDetails"
+            app:destination="@id/fragmentTableDetails" />
+    </fragment>
 </navigation>

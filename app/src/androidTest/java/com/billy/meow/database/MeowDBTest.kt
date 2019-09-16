@@ -1,10 +1,10 @@
-package com.billy.meow.model
+package com.billy.meow.database
 
 import androidx.room.Room
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
-import com.billy.meow.model.dao.BilleeDao
-import com.billy.meow.model.data.Billee
+import com.billy.meow.database.dao.BilleeDao
+import com.billy.meow.database.data.Billee
 import org.junit.After
 import org.junit.Assert
 import org.junit.Before

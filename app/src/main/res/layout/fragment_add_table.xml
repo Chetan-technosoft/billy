@@ -13,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/start_guideline"
             android:layout_width="wrap_content"
@@ -42,38 +43,26 @@
             app:layout_constraintGuide_end="@dimen/vertical_margin" />
 
         <TextView
-            android:id="@+id/tv_welcome"
+            android:id="@+id/tv_table_header"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/top_margin_onboarding"
-            android:text="@string/text_welcome"
-            android:textSize="@dimen/text_heading1"
-            android:textStyle="bold"
+            android:text="@string/add_table_text"
+            android:textSize="@dimen/text_sub_header1"
             app:layout_constraintEnd_toEndOf="@id/end_guideline"
             app:layout_constraintStart_toStartOf="@id/start_guideline"
             app:layout_constraintTop_toBottomOf="@id/top_guideline" />
 
-        <TextView
-            android:id="@+id/tv_welcome_message"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/vertical_margin"
-            android:text="@string/welcome_message"
-            android:textSize="@dimen/text_sub_header1"
-            app:layout_constraintEnd_toEndOf="@id/end_guideline"
-            app:layout_constraintStart_toStartOf="@id/start_guideline"
-            app:layout_constraintTop_toBottomOf="@id/tv_welcome" />
-
         <EditText
-            android:id="@+id/et_user_name"
+            android:id="@+id/et_table_name"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/vertical_margin_double"
-            android:hint="@string/hint_name"
+            android:hint="@string/hint_table_name"
             android:inputType="textPersonName"
             app:layout_constraintEnd_toEndOf="@id/end_guideline"
             app:layout_constraintStart_toStartOf="@id/start_guideline"
-            app:layout_constraintTop_toBottomOf="@id/tv_welcome_message" />
+            app:layout_constraintTop_toBottomOf="@id/tv_table_header" />
 
         <Button
             android:layout_width="wrap_content"
@@ -82,7 +71,7 @@
             android:text="@string/text_button_continue"
             app:layout_constraintEnd_toEndOf="@id/end_guideline"
             app:layout_constraintStart_toStartOf="@id/start_guideline"
-            app:layout_constraintTop_toBottomOf="@id/et_user_name" />
+            app:layout_constraintTop_toBottomOf="@id/et_table_name" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

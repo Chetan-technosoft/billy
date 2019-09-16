@@ -3,6 +3,22 @@
     <string name="text_welcome">Welcome!</string>
     <string name="welcome_message">My name is Meow, what\'s yours?</string>
     <string name="hint_name">Eg. Phoebe Buffay</string>
+    <string name="hint_name2">Eg. Ms. Chanandler Bong </string>
     <string name="text_button_continue">Continue</string>
     <string name="new_plan">New Plan</string>
+    <string name="add_table_text">What\'s the plan today?</string>
+    <string name="hint_table_name">Eg. Pizza at Joey\'s</string>
+    <string name="text_add_billees">Add partners in crime.</string>
+    <string name="hint_phone">Phone number (optional)</string>
+    <string name="text_button_add_billee">Add</string>
+    <string name="text_button_done">Done</string>
+    <string name="text_add_food">Add Food</string>
+    <string name="hint_price">What\'s the damage?</string>
+    <string name="hint_tax"><![CDATA[#*&&%**%$]]></string>
+    <string name="hint_discount">Yaay!</string>
+    <string name="discount_before_taxes">Discount before taxes?</string>
+    <string name="header_dish">Dish</string>
+    <string name="header_tax">Tax</string>
+    <string name="header_discount">Discount</string>
+    <string name="header_price">Price</string>
 </resources>

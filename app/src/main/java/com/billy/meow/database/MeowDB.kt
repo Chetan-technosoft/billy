@@ -1,17 +1,17 @@
-package com.billy.meow.model
+package com.billy.meow.database
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.billy.meow.model.dao.BilleeDao
-import com.billy.meow.model.dao.DishDao
-import com.billy.meow.model.dao.FoodBilleeMapDao
-import com.billy.meow.model.dao.TableDao
-import com.billy.meow.model.data.Billee
-import com.billy.meow.model.data.Dish
-import com.billy.meow.model.data.FoodBilleeMap
-import com.billy.meow.model.data.Table
+import com.billy.meow.database.dao.BilleeDao
+import com.billy.meow.database.dao.DishDao
+import com.billy.meow.database.dao.FoodBilleeMapDao
+import com.billy.meow.database.dao.TableDao
+import com.billy.meow.database.data.Billee
+import com.billy.meow.database.data.Dish
+import com.billy.meow.database.data.FoodBilleeMap
+import com.billy.meow.database.data.Table
 
 /**
  * Created by Chetan on 11-09-2019.

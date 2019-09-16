@@ -1,4 +1,4 @@
-package com.billy.meow.model.data
+package com.billy.meow.database.data
 
 import androidx.room.Embedded
 import androidx.room.Relation

@@ -1,9 +1,9 @@
-package com.billy.meow.model.dao
+package com.billy.meow.database.dao
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.billy.meow.model.data.Table
-import com.billy.meow.model.data.TableWithFoodAndBillee
+import com.billy.meow.database.data.Table
+import com.billy.meow.database.data.TableWithFoodAndBillee
 
 /**
  * Created by Chetan on 2019-09-14.
