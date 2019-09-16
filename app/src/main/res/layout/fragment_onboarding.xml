@@ -6,7 +6,7 @@
 
         <variable
             name="viewModel"
-            type="com.billy.meow.viewmodel.MainViewModel" />
+            type="com.billy.meow.onboarding.OnboardingViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/fragmentOnboarding"
-        android:name="com.billy.meow.view.fragments.FragmentOnboarding"
+        android:name="com.billy.meow.onboarding.FragmentOnboarding"
         android:label="FragmentOnboarding"
         tools:layout="@layout/fragment_onboarding">
 
@@ -34,7 +34,7 @@
     <fragment
         android:id="@+id/fragmentTableDetails"
 
-        android:name="com.billy.meow.view.fragments.FragmentTableDetails"
+        android:name="com.billy.meow.tables.FragmentTableDetails"
         android:label="FragmentTableDetails"
         tools:layout="@layout/fragment_table_details">
 
@@ -45,7 +45,7 @@
 
     <fragment
         android:id="@+id/fragmentAddTable"
-        android:name="com.billy.meow.view.fragments.FragmentAddTable"
+        android:name="com.billy.meow.tables.FragmentAddTable"
         android:label="FragmentAddTable"
         tools:layout="@layout/fragment_add_table">
 
@@ -56,7 +56,7 @@
 
     <fragment
         android:id="@+id/fragmentTables"
-        android:name="com.billy.meow.view.fragments.FragmentTables"
+        android:name="com.billy.meow.tables.FragmentTables"
         android:label="FragmentTables"
         tools:layout="@layout/fragment_tables">
 
